@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>Table Verification</title>
+        <style>
+            body{
+                background-color:bisque;
+            }
+        </style>
+    </head>
+    <body>
+       
+        <form action="register.php" method="post">
+            <button onclick="createTable()">Create table</button>
+            <h2>Registration Form</h2>
+            <label for="username">Username:</label>
+            <input type="text" name="username" id="username"><br>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password"><br>
+            <label for="confirmpassword">Confirm Password</label>
+            <input type="password" name="confirmpassword" id="confirmpassword"><br>
+            <label for="fullname">Full Name:</label>
+            <input type="text" name="fullname" id="fullname"><br>
+            <select name="gender" required>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select><br>
+            <label for="country">Country:</label>
+            <input type="text" name="country" id="country"><br>
+
+            <label for="hobbies">Hobbies</label>
+            <input type="hobbies" name="hobbies" id="hobbies"><br>
+            <input type="submit" value="Register">
+        </form>
+        <p><a href="index.html">Go Back</a></p>
+    </body>
+</html>
